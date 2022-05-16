@@ -1,0 +1,94 @@
+html {
+	overflow-x: hidden;
+}
+
+
+
+.form {
+	
+	margin: 0 auto;
+	padding: 1.5em 0;
+}
+
+
+*::-webkit-input-placeholder {
+	color: #ababab;
+}
+
+*:-moz-placeholder {
+	/* Firefox 18- */
+	color: #ababab;
+}
+
+*::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #ababab;
+}
+
+*:-ms-input-placeholder {
+	/* IE10+ */
+	color: #ababab;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="number"],
+input[type="password"],
+textarea {
+	width: 90%;
+	line-height: 1.5em;
+	font-family: inherit;
+	border: none;
+	color: #121212;
+	background: #ededed;
+	overflow: auto;
+	resize: none;
+	padding-top: 0.75em;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 0.75em;
+}
+
+
+
+textarea {
+	height: 6em;
+	vertical-align: top;
+	/* removes akward space directly below textarea */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	outline: 0;
+	border: none;
+}
+
+input[type="submit"] {
+	border: none;
+	margin: 0;
+	width: 90%;
+	text-align: center;
+	font-family: inherit;
+	line-height: 1.5em;
+	font-size: inherit;
+	cursor: pointer;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	color: #ababab;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+input[type="submit"]:hover {
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	-webkit-transition: 1s;
+	transition: 1s;
+	color: #fff;
+	background: #000;
+}
